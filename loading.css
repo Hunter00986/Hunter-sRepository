@@ -12,6 +12,7 @@ body {
 
 .loading-text {
     font-size: 50px;
+    z-index: 2;
     opacity: 1;
 }
 
