@@ -4,7 +4,7 @@
 
 .rectangle {
     height: 60px;
-    Width: 250px;
+    width: 250px;
     background: red;
     margin: 3px;
     border-radius: 20px;
@@ -15,14 +15,10 @@
 
 body {
     display: flex;
-    height: 100vp;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
-}
-
-.spin {
-    position: center;
 }
 
 .click {
@@ -54,11 +50,11 @@ body {
 }
 
 
-/* @keyframes spin {
+@keyframes spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-} */
+}

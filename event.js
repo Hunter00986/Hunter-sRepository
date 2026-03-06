@@ -1,19 +1,24 @@
 clickBox = document.querySelector('.click')
-spinbox = document.querySelector('spin')
+spinBox = document.querySelector('.spin')
 
 colors = ['blue', 'green', 'purple', 'red']
 index = 0
 
 clickBox.addEventListener('click',() => {
-    clickBox.style.background = 'colors[index]'
+    clickBox.style.background = colors[index]
     index = index + 1
     if (index == colors.length)
     {
         index = 0
     }
-    clickbox.style.color = 'white'
+    clickBox.style.color = 'white'
 })
 
-spinbox.addEventListener('click', () => {
-    spinbox.classList.toggle('start')
+spinBox.addEventListener('click', () => {
+    spinBox.classList.toggle('start')
+})
+
+dbBox = document.querySelector('.dbclick');
+dbBox.addEventListener('dblclick', () => {
+    dbBox.classList.toggle('active')
 })
