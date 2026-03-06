@@ -16,8 +16,8 @@ body {
 }
 
 .bg {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     background-image: url('images/forest1.jpg');
     position: absolute;
     background-repeat: no-repeat;
