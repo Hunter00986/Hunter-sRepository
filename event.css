@@ -49,6 +49,10 @@ body {
     animation: spin 1s linear infinite;
 }
 
+.fade {
+    opacity: 0;
+    transition: opacity 1s linear;
+}
 
 @keyframes spin {
     from {
