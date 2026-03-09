@@ -1,0 +1,18 @@
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center-text {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
