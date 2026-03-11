@@ -1,7 +1,12 @@
 buttons = document.querySelector('.buttons')
+applause = document.querySelector('.applause')
 
 btn = document.createElement('button')
-btn.innerText = "click this"
+btn.innerText = "applause"
 btn.classList.add('btn')
+btn.addEventListner('click', =>{
+    applause.play()
+})
 buttons.appendChild(btn)
+
 
