@@ -17,5 +17,9 @@ body {
     padding: 1.5rem 3rem;
     font-size: 1.2rem;
     cursor: pointer;
-    
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
