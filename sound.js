@@ -13,7 +13,7 @@ for(let i = 0; i < 6; i = i + 1) {
     buttons.appendChild(btn)
 }
 
-function stopSongs {
+function stopSongs() {
     for(let i = 0; i < 6; i = i + 1)
     {
         document.querySelector(`.${sounds[i]}`).pause()
