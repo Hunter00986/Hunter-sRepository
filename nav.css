@@ -5,18 +5,20 @@
     margin: 0;
 }
 
+body {
+    background: rgb(100, 100, 100);
+    color: #222222;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
 .container {
+    max-width: 1200px;
     font-family: "Iosevka Charon Mono", monospace;
     background: #fafafa;
     width: 100vw;
     min-height: 100vh:
     padding: 50px;
-}
-
-body {
-    background: rgb(150, 150, 150);
-    color: #222222;
-    overflow-x: hidden;
 }
 
 .container.content {
