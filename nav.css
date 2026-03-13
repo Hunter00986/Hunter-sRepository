@@ -5,10 +5,15 @@
 
 .container {
     background: #fafafa;
+    width: 100vw;
+    min-height: 100vh:
+    padding: 50px;
+
 }
 
 body {
     background: rgb(150, 150, 150);
     color: #222222;
     margin: 0;
+    overflow-x: hidden;
 }
