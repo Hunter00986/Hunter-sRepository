@@ -24,6 +24,9 @@ function startGame() {
 function creatInsect() {
     insect = document.createElement('div')
     insect.classList.add('insect')
-    insect.innerHtml = `<img src="images/dragonfly.jfif" alt="Dragonfly">`
+    {x,y} = getRandomLocation()
+    insect.style.top = `${y}px`
+    insect.style.left = `${x}px`
+    insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
     game_container.appendChild(insect)
 }
