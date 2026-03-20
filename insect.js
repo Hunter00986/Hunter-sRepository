@@ -30,3 +30,11 @@ function creatInsect() {
     insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
     game_container.appendChild(insect)
 }
+
+function getRandomLocation {
+    width = window.innerWidth
+    height = window.innnerHeight
+    x = Math.random()*(width -200) + 100
+    y = Math.random()*(height -200) + 100
+    return {x,y}
+}
