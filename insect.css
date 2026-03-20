@@ -9,7 +9,7 @@ body {
     background: #777777;
     color: white;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
     text-align: center;
 }
@@ -112,6 +112,16 @@ h1 {
 }
 
 .insect {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.insect img {
     width: 100px;
     height: 100px;
 }
