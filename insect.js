@@ -81,5 +81,5 @@ function increaseTime() {
     if ( s < 10){
         s = `0${s}`
     }
-    timeEl.innerHTMl = `Time: ${m}:${s}`
+    timeEl.innerHTML = `Time: ${m}:${s}`
 }
