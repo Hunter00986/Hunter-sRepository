@@ -2,10 +2,11 @@ screens = document.querySelectorAll('.screen')
 choose_insect_btn = document.querySelectorAll('.choose-insect-btn')
 start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
-scoreEl = document.getElementById('.score')
-timeEl = document.getElementById('.time')
+scoreEl = document.getElementById('score')
+timeEl = document.getElementById('time')
 score = 0
 seconds = 0
+messageEl = document.getElementById('message')
 
 start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
