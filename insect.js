@@ -50,8 +50,8 @@ function getRandomLocation() {
 
 function catchInsect(insect) {
     increaseScore()
-    this.classList.add('caught')
-    setTimeout(() => this.remove(), 2000)
+    insect.classList.add('caught')
+    setTimeout(() => insect.remove(), 2000)
     setTimeout(createInsect,1000)
     addInsects()
 }
@@ -74,7 +74,7 @@ function increaseTime() {
     seconds = seconds + 1
     s = seconds % 60
     m = Math.floor(seconds / 60)
-    scoreEl = document.getElementById('.score')
+    scoreEl = document.getElementById('score')
     if ( m < 10){
         m = `0${m}`
     }
