@@ -17,7 +17,7 @@ for (let i = 0; i < choose_insect_btn.length; i = i + 1) {
         screens[1].classList.add('up')
         img = choose_insect_btn[i].querySelector('img')
         src = img.getAttribute('src')
-        alt = img.getAtrribute('alt')
+        alt = img.getAttribute('alt')
         startGame()
     })
 }
