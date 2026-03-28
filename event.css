@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+nav a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
 .rectangle {
     height: 60px;
     width: 250px;

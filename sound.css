@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+nav a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
 body {
     background: pink;
     font-family: "Roboto", sans-serif;

@@ -6,6 +6,14 @@
     padding: 0;
 }
 
+.link a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 150;
+}
+
 body {
     background: rgb(100, 100, 100);
     font-family: "Iosevka Charon Mono", monospace;

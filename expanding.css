@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.link a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
 body {
     height: 100vh;
     display: flex;

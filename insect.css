@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
+.link a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
 body {
     font-family: "Iosevka Charon Mono", monospace;
     background: #777777;
     color: white;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: 0;
     text-align: center;
 }

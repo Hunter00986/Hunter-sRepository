@@ -7,6 +7,13 @@ body {
     margin: 0;
 }
 
+nav a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
 .center-text {
     display: flex;
     width: 500px;
