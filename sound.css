@@ -9,6 +9,7 @@ nav a {
     top: 20px;
     left: 20px;
     color: black;
+    z-index:300;
 }
 
 body {
