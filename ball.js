@@ -111,7 +111,7 @@ function makeScoreBoard() {
     score1Display.innerText = "Score 1:" + score1
     score1Display.style.position = 'absolute'
     score1Display.style.top = "20px"
-    score1Display.style.left = "20px"
+    score1Display.style.left = "100px"
     score1Display.style.color = "black"
     score1Display.style.background = "teal"
 
@@ -120,7 +120,7 @@ function makeScoreBoard() {
     score2Display.style.color = "black"
     score2Display.style.background = "red"
     score2Display.style.top = "20px"
-    score2Display.style.right = "20px"
+    score2Display.style.right = "100px"
 }
 
 function updateScore() {
